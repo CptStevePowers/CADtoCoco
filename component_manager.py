@@ -39,6 +39,12 @@ class Component(dict):
         assert isinstance(child, Component), 'Child must be a Component'
         self.__children.append(child)
 
+    def get_top_parent(self):
+        if self.get_parent() is not None:
+            return self.get_parent().get_parent()
+        else:
+            return self
+
 
 if __name__ == '__main__':
     components = []
@@ -83,9 +89,13 @@ if __name__ == '__main__':
     components.append(Component('Welle', parent=antriebswelle, stl_files=['Antriebswelle - Antriebswelle-1.STL']))
     components.append(Component('Parallel Key', parent=antriebswelle)) #TODO: stl_files missing?
 
+    ball = Component('Ball', parent=components[1])
+    components.append(ball)
     children = antriebswelle.get_children()
     for child in children:
         print(child['name'])
+
+    print('Top parent of ball is:', ball.get_top_parent()['name'])
 
 
 ### Tests ###
