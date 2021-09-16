@@ -1,0 +1,75 @@
+{
+    "components": [
+      {
+        "name": "6017-1",
+        "stl-files": [
+          "Antriebswelle - 6017-3 _6017_PART1_2-1.STL",
+          "Antriebswelle - 6017-3 _6017_PART2_4-1.STL",
+          "Antriebswelle - 6017-3 _6017_PART3_6-12.STL",
+          "Antriebswelle - 6017-3 _6017_PART3_6-15.STL",
+          "Antriebswelle - 6017-3 _6017_PART3_6-16.STL",
+          "Antriebswelle - 6017-3 _6017_PART3_6-17.STL",
+          "Antriebswelle - 6017-3 _6017_PART3_6-18.STL",
+          "Antriebswelle - 6017-3 _6017_PART3_6-19.STL",
+          "Antriebswelle - 6017-3 _6017_PART3_6-20.STL",
+          "Antriebswelle - 6017-3 _6017_PART3_6-21.STL",
+          "Antriebswelle - 6017-3 _6017_PART3_6-22.STL",
+          "Antriebswelle - 6017-3 _6017_PART3_6-23.STL",
+          "Antriebswelle - 6017-3 _6017_PART3_6-24.STL",
+          "Antriebswelle - 6017-3 _6017_PART3_6-25.STL",
+          "Antriebswelle - 6017-3 _6017_PART3_6-26.STL",
+          "Antriebswelle - 6017-3 _6017_PART3_6-27.STL",
+          "Antriebswelle - 6017-3 _6017_PART3_6-8.STL"],
+        "images": 1,
+        "category": 1
+      },
+      {
+        "name": "6017-2",
+        "stl-files": [
+          "Antriebswelle - 6017-4 _6017_PART1_2-1.STL",
+          "Antriebswelle - 6017-4 _6017_PART2_4-1.STL",
+          "Antriebswelle - 6017-4 _6017_PART3_6-12.STL",
+          "Antriebswelle - 6017-4 _6017_PART3_6-15.STL",
+          "Antriebswelle - 6017-4 _6017_PART3_6-16.STL",
+          "Antriebswelle - 6017-4 _6017_PART3_6-17.STL",
+          "Antriebswelle - 6017-4 _6017_PART3_6-18.STL",
+          "Antriebswelle - 6017-4 _6017_PART3_6-19.STL",
+          "Antriebswelle - 6017-4 _6017_PART3_6-20.STL",
+          "Antriebswelle - 6017-4 _6017_PART3_6-21.STL",
+          "Antriebswelle - 6017-4 _6017_PART3_6-22.STL",
+          "Antriebswelle - 6017-4 _6017_PART3_6-23.STL",
+          "Antriebswelle - 6017-4 _6017_PART3_6-24.STL",
+          "Antriebswelle - 6017-4 _6017_PART3_6-25.STL",
+          "Antriebswelle - 6017-4 _6017_PART3_6-26.STL",
+          "Antriebswelle - 6017-4 _6017_PART3_6-27.STL",
+          "Antriebswelle - 6017-4 _6017_PART3_6-8.STL"],
+        "images": 1,
+        "category": 1
+      },
+      {
+        "name": "Antriebswelle",
+        "stl-files": [
+          "Antriebswelle - Antriebswelle-1.STL"
+        ],
+        "images": 1,
+        "category": 2
+      }
+    ],
+    "categories":[
+      {
+        "id": 1,
+        "name": "6017",
+        "supercategory": "part"
+      },
+      {
+        "id": 2,
+        "name": "Antriebswelle",
+        "supercategory": "part"
+      },
+      {
+        "id": 3,
+        "name": "Parallel key",
+        "supercategory": "part"
+      }
+    ]
+  }
